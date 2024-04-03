@@ -1,0 +1,55 @@
+body {
+
+  background: linear-gradient(#495790, #c1f3f9);
+
+}
+
+/***********Header.jsx**********/
+.nav_ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-left: 50%;
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+header p {
+  width: 50%;
+  text-align: justify;
+}
+
+
+
+/************ Projects.jsx****************/
+
+.projects_section {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+  backdrop-filter: blur(500px);
+  border-radius: 5%;
+
+}
+
+.projects_section p {
+  text-align: justify;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article img {
+  border-radius: 5%;
+}
