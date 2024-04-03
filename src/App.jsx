@@ -30,7 +30,7 @@ function App() {
     <>
       <Header />
       <Languages />
-      <section className='projects_section'>
+      <section className='projects_section' id="Projets">
         <Projects projects={projects} />
       </section>
       <Contact />
