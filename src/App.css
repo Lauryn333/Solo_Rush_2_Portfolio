@@ -53,3 +53,31 @@ article {
 article img {
   border-radius: 5%;
 }
+
+/*************Contact.jsx***************/
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+input {
+  width: 60%;
+}
+
+textarea {
+  width: 60%;
+}
+
+.button_form {
+  width: 10%;
+  margin-top: 2%;
+}
