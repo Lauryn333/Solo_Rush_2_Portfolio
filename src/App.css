@@ -26,6 +26,25 @@ header p {
   text-align: justify;
 }
 
+/********************Languages.jsx***************/
+
+.section_languages {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.div_languages {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.p_languages {
+  font-weight: bold;
+  margin-right: 20%;
+}
+
 
 
 /************ Projects.jsx****************/
@@ -52,4 +71,32 @@ article {
 
 article img {
   border-radius: 5%;
+}
+
+/*************Contact.jsx***************/
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+input {
+  width: 60%;
+}
+
+textarea {
+  width: 60%;
+}
+
+.button_form {
+  width: 10%;
+  margin-top: 2%;
 }
