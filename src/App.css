@@ -26,6 +26,25 @@ header p {
   text-align: justify;
 }
 
+/********************Languages.jsx***************/
+
+.section_languages {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.div_languages {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.p_languages {
+  font-weight: bold;
+  margin-right: 20%;
+}
+
 
 
 /************ Projects.jsx****************/
