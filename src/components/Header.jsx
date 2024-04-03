@@ -16,8 +16,8 @@ function Header() {
         <>
             <nav className="nav_barre">
                 <ul className="nav_ul">
-                    <li><a href="#">Projets</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Projets">Projets</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
             <header>

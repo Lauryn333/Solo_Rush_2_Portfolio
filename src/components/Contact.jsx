@@ -3,7 +3,7 @@
 function Contact() {
 
     return (
-        <form>
+        <form id="Contact">
             <label>Nom-Prénom </label>
             <input />
 
